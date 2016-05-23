@@ -91,7 +91,7 @@ def school
       school
     when 4
       puts `clear`
-      puts "Enter a custom next you would like to say to #{@name_user}"
+      puts "Enter a custom text you would like to say to #{@name_user}"
       custom = gets.strip.to_s
       print `say #{custom}`
       school
